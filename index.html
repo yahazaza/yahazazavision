@@ -1,1 +1,81 @@
-hello
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .project-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .project-image {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .project-details {
+            margin-top: 15px;
+        }
+        .project-details p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+        .contact-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #25d366;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .contact-button:hover {
+            background-color: #1ebe57;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Investment Opportunities</h1>
+    <div class="project-container" id="project1">
+        <img src="project1.jpg" alt="Project Image" class="project-image">
+        <div class="project-details">
+            <p><strong>Capital:</strong> $50,000</p>
+            <p><strong>Benefit per Month:</strong> $5,000</p>
+            <p><strong>Place of Execution:</strong> Bujumbura</p>
+        </div>
+        <a href="#" class="contact-button" onclick="contactMe('Project 1')">Contact Me</a>
+    </div>
+
+    <div class="project-container" id="project2">
+        <img src="project2.jpg" alt="Project Image" class="project-image">
+        <div class="project-details">
+            <p><strong>Capital:</strong> $100,000</p>
+            <p><strong>Benefit per Month:</strong> $10,000</p>
+            <p><strong>Place of Execution:</strong> Nairobi</p>
+        </div>
+        <a href="#" class="contact-button" onclick="contactMe('Project 2')">Contact Me</a>
+    </div>
+
+    <script>
+        function contactMe(projectName) {
+            const phoneNumber = '+25766413864'; // Your WhatsApp number
+            const message = encodeURIComponent(`Hello, I am interested in investing in ${projectName}.`);
+            const url = `https://wa.me/${phoneNumber}?text=${message}`;
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>
