@@ -58,27 +58,6 @@
             color: #555;
         }
 
-        .intro-buttons {
-            margin-top: 15px;
-        }
-
-        .intro-buttons .button {
-            display: inline-block;
-            margin: 5px;
-            padding: 10px 20px;
-            color: white;
-            background: #4CAF50;
-            border-radius: 5px;
-            font-weight: bold;
-            text-align: center;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
-
-        .intro-buttons .button:hover {
-            background: #45a049;
-        }
-
         /* Project Section Styles */
         .projects {
             max-width: 1200px;
@@ -194,13 +173,9 @@
             helping individuals with limited capital turn their funds into lucrative ventures.
         </p>
         <p>
-            If you think you have a project that you want us to invest in, or if you are looking 
-            for partners for your project, then feel free to contact us. We are here to help you 
-            bring your vision to life.
+            Together, we can identify projects that align with your budget and goals, ensuring 
+            your money works as hard as you do.
         </p>
-        <div class="intro-buttons">
-            <div class="button" onclick="contactMeGeneral()">I Have a Project</div>
-        </div>
     </section>
 
     <!-- Projects Section -->
@@ -282,4 +257,14 @@
         function contactMe(projectName) {
             const phoneNumber = '+25766413864'; // Your WhatsApp number
             const message = encodeURIComponent(`Hello, I am interested in investing in ${projectName}.`);
-            const url = `https://wa.me/${phoneNumber
+            const url = `https://wa.me/${phoneNumber}?text=${message}`;
+            window.open(url, '_blank');
+        }
+
+        function toggleMoreInfo(infoId) {
+            const info = document.getElementById(infoId);
+            info.style.display = info.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>
