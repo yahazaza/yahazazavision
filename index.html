@@ -23,6 +23,10 @@
             margin: 0;
         }
 
+        h2 {
+            color: #FFA500; /* Orange color for all h2 tags */
+        }
+
         /* Header Styles */
         header {
             background: #FFA500;
@@ -45,11 +49,6 @@
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
-        }
-
-        .introduction h2 {
-            color: #FFA500;
-            font-size: 1.5rem;
         }
 
         .introduction p {
@@ -117,6 +116,29 @@
             border-top: 1px solid #ddd;
         }
 
+        /* Facebook Video Styles */
+        .facebook-video {
+            margin: 20px auto;
+            padding: 10px;
+            background: white;
+            border: 2px solid #FFA500; /* Orange border */
+            border-radius: 8px;
+            text-align: center;
+            max-width: 600px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .facebook-video iframe {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .video-description {
+            margin-top: 10px;
+            font-size: 1rem;
+            color: #555;
+        }
+
         /* Footer Styles */
         footer {
             position: fixed;
@@ -161,7 +183,7 @@
 <body>
     <!-- Header -->
     <header>
-        <h1>YahazazaVision.</h1>
+        <h1>YahazazaVision</h1>
     </header>
 
     <!-- Introduction Section -->
@@ -169,29 +191,20 @@
         <h2>Votre partenaire de confiance pour les petits investissements</h2>
         <p>
             Bienvenue ! Si vous avez peu d'argent et que vous cherchez la bonne personne 
-            pour vous guider vers des investissements rentables, vous êtes au bon endroit. 
-
-
-
-<h2>Comment je travaille </h2>
-
- J'ai créé un groupe WhatsApp où je mets des projets rentables. Si vous voulez faire partie des investisseurs de ce projet, nous sélectionnerons les personnes qui souhaitent exécuter ce projet et nous nous mettrons ensemble pour exécuter ce projet.     <div class="buttons">
-                <div class="button" onclick="contactMe('Projet 1')">joignez le groupe whatsapp</div>
-<br>
-
-bonne chance aux particuliers avec un capital limité pour transformer leur argent en ventures lucratives.
+            pour vous guider vers des investissements rentables, vous êtes au bon endroit.
         </p>
+        <h2>Comment je travaille</h2>
         <p>
-            Ensemble, nous pouvons identifier des projets qui correspondent à votre budget 
-            et à vos objectifs, garantissant que votre argent travaille aussi dur que vous.
+            J'ai créé un groupe WhatsApp où je mets des projets rentables. 
+            Si vous voulez faire partie des investisseurs de ce projet, 
+            nous sélectionnerons les personnes qui souhaitent exécuter ce projet 
+            et nous nous mettrons ensemble pour l'exécuter.
         </p>
-
-
     </section>
-    <h2>Exemples des projets déjà exécutés et leurs bénéfices mensuels.</h2>
+
     <!-- Projects Section -->
     <section class="projects">
-        <!-- Project 1 -->
+        <h2>Exemples des projets déjà exécutés et leurs bénéfices mensuels</h2>
         <div class="project">
             <img src="project1.jpg" alt="Projet 1">
             <div class="project-details">
@@ -211,15 +224,16 @@ bonne chance aux particuliers avec un capital limité pour transformer leur arge
                 </p>
             </div>
         </div>
-        <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F61555400591277%2Fvideos%2F1278674823252863%2F&show_text=false&width=232&t=0" width="232" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-        
-        <h2>images et videos</h2>
-
-
-        
-        <!-- Project 2 -->
-      
     </section>
+
+    <!-- Facebook Video -->
+    <div class="facebook-video">
+        <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F61555400591277%2Fvideos%2F1278674823252863%2F&show_text=false&width=232&t=0" height="476" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <div class="video-description">
+            Cette vidéo montre des exemples d'investissements réussis que nous avons réalisés. 
+            Découvrez comment nous pouvons vous aider à transformer vos idées en projets rentables.
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer>
@@ -232,7 +246,7 @@ bonne chance aux particuliers avec un capital limité pour transformer leur arge
     <!-- JavaScript -->
     <script>
         function contactMe(projectName) {
-            const phoneNumber = '+25766413864'; // Votre numéro WhatsApp
+            const phoneNumber = '+25766413864';
             const message = encodeURIComponent(`Bonjour, je suis intéressé par l'investissement dans le projet ${projectName}.`);
             const url = `https://wa.me/${phoneNumber}?text=${message}`;
             window.open(url, '_blank');
@@ -244,6 +258,4 @@ bonne chance aux particuliers avec un capital limité pour transformer leur arge
         }
     </script>
 </body>
-</html>
-
-
+</html>e
