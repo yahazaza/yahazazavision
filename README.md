@@ -42,6 +42,7 @@ Self-Taught Scientist | Software Developer | Hardware Enthusiast
 📍 Bujumbura, Burundi
 📞 +257 66413864 (Click-to-Copy Feature Coming Soon!)
 🔗 GitHub: github.com/Yahazaza
+🔗 LinkedIn: linkedin.com/in/DouglasNzobonimpa
 
 
 ---
