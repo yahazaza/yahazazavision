@@ -1,51 +1,15 @@
-👋 Hello, I'm Yahazaza!
+À propos de Douglas Nzobonimpa.
 
-Self-Taught Scientist | Software Developer | Hardware Enthusiast
+Douglas Nzobonimpa est un chercheur indépendant passionné par l'entrepreneuriat au Burundi. Il mène des recherches personnelles axées sur les petits projets viables et rentables, destinés à offrir des opportunités concrètes aux jeunes Burundais. Son objectif est d'identifier et de proposer des solutions entrepreneuriales accessibles et adaptées au contexte local.
 
-🚀 Passionate about merging technology and industry, I explore innovative solutions for automation, signal processing, and web development. My work spans PLC control systems, electrolysis for gas production, video transmission via laser, and web applications.
+Sur le plan académique, Douglas est diplômé de l'enseignement technique secondaire (Niveau A2) dans la section Technologie des Industries Agro-Alimentaires . Il est également titulaire d'un baccalauréat universitaire en Nutrition, une discipline scientifique qui s'intéresse aux liens entre l'alimentation et la santé à l'université lumière de Bujumbura.
 
+Il a poursuivi ses études en Tanzanie, ce qui lui a permis d'acquérir une bonne maîtrise de la langue anglaise. Actuellement, il apprend la langue chinoise à l’Institut Confucius de Bujumbura afin de renforcer ses compétences linguistiques dans le cadre de ses recherches en nutrition, en s’ouvrant à d’autres langues étrangères que l’anglais et le français, qui sont déjà largement utilisées dans son parcours
 
----
+En 2020, Douglas à fondé la Coopérative Gain Massive, une initiative portée par des jeunes visant à soutenir les politiques gouvernementales de structuration économique à travers la création de coopératives locales. Cette coopérative lui sert également de cadre d'expérimentation entrepreneuriale, lui permettant de tester et développer des idées concrètes adaptées au contexte burundais.
 
-🔧 What I Do
+En 2025, il a crée le site web yahazazavision.kesug.com, avec pour objectif de traduire des notions clés de la nutrition en langue kirundi, afin de promouvoir une bonne santé nutritionnelle auprès de toutes les populations, y compris celles qui ne maîtrisent pas la langue française, dans laquelle la plupart des contenus scientifiques sont écrits. À travers cette plateforme, il met également en valeur des projets liés à la technologie des industries agroalimentaires, en s'appuyant sur son expérience entrepreneuriale pour proposer des solutions concrètes, accessibles et adaptées au terrain.
 
-🛠 Hardware & Software Integration – Working with PLC systems to control industrial processes.
+site web officiel: https://yahazazavision.kesug.com/
 
-💻 Programming – Developing in C++, Python, PHP, and JavaScript.
-
-🌐 Web Development – Designing responsive websites and applications.
-
-🎯 Parallel Port Control – Using inpout32.dll for direct hardware communication.
-
-📡 Laser Communication – Researching video signal transmission via laser.
-
-
-
----
-
-🔬 Current Projects
-
-⚡ Electrolysis Control System – Automating hydrogen & oxygen gas production.
-
-🔗 Parallel Port Data Transfer – High-speed text communication using D0 as TX and an acknowledgment pin as RX.
-
-🎮 Game Software – Designing a simple interactive game.
-
-👕 T-shirt Advertisement Page – Custom product showcase with interactive elements.
-
-
-
----
-
-📫 Let's Connect
-
-📍 Bujumbura, Burundi
-📞 +257 66413864 (Click-to-Copy Feature Coming Soon!)
-🔗 GitHub: github.com/Yahazaza
-🔗 LinkedIn: linkedin.com/in/DouglasNzobonimpa
-
-
----
-
-💡 "Exploring technology to bridge the gap between industry and innovation."
-
+Contact Me: +257 66 413 864
